@@ -25,9 +25,11 @@ export default [
     },
     rules: {
       'prettier/prettier': 'error',
-      'react/react-in-jsx-scope': 'off',
       'simple-import-sort/imports': 'error',
       'simple-import-sort/exports': 'error',
+      // ignore
+      'react/react-in-jsx-scope': 'off',
+      '@typescript-eslint/no-empty-object-type': 'off',
     },
   },
 ]
